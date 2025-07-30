@@ -60,7 +60,7 @@ const BadNano = JSON.parse(fs.readFileSync('./database/bad.json'))
 const pler = JSON.parse(fs.readFileSync('./database/idgrup.json').toString())
 const siminya = JSON.parse(fs.readFileSync('./database/simi.json'))
   
-  const yourid = '2348106182921@s.whatsapp.net'; // Your WhatsApp ID 
+  const yourid = '966593568767@s.whatsapp.net'; // Your WhatsApp ID 
 const channelContextInfo = {
   forwardingScore: 0,
   isForwarded: true,
@@ -181,7 +181,7 @@ type: 'append'
         const messagesD = typeof budy === 'string' ? budy.slice(0).trim().split(/ +/).shift().toLowerCase() : '';
         const command = body.replace(prefix, '').trim().split(/ +/).shift().toLowerCase()
         const args = body.trim().split(/ +/).slice(1)
-        const pushname = m.pushName || "No Name"
+        const pushname = m.pushName || "boy"
         const botNumber = await LordVoltage.decodeJid(LordVoltage.user.id)
 const DanzTheCreator = [botNumber, ...owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender);
 const text = q = args.join(" ")
